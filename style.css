@@ -1,0 +1,63 @@
+.grid{ 
+    display: grid;
+    grid-template-areas: "head head"
+    "email email"
+    "productive productive"
+    "access access"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 500px 900px 400px 300px;
+}
+
+.header{ 
+    grid-area: head;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.email{ 
+    grid-area: email;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.productive{ 
+    grid-area: productive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.footer .logo-contacts .footer-logo{ 
+    opacity: 50%;
+    fill: aliceblue;
+}
+
+.access{ 
+    grid-area: access;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.footer{ 
+
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    background-color: #07043B;
+    color: aliceblue;
+}
+
+.productive .productivity-image img{ 
+    width: 542px;
+    height: 409px;
+}
+
+.email .email-image img{ 
+    width: 640px;
+    height: 474px;
+}
