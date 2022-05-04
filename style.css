@@ -271,7 +271,7 @@ input:active{
     .grid{ 
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 1rem;
         justify-content: stretch;
         align-content: stretch;
         align-items: stretch;
@@ -300,15 +300,14 @@ input:active{
     line-height: 19px;
     text-transform: capitalize;
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+
     line-height: 19px;
 }
     
     .header{ 
-    grid-area: head;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    width: 1em;
     margin: 0%;
 
 }
@@ -316,7 +315,7 @@ input:active{
     .email, .productive{ 
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
+        width: 1em;
         flec-basis:100%;
     }
     
@@ -328,7 +327,7 @@ input:active{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: 1em;
         flex-basis: 100%;
 
     }
@@ -336,10 +335,10 @@ input:active{
         gap: 0px;
     }
     .email-image{ 
-        width: 80%;
+        width: 1em;
     }
     .productivity-image{ 
-        width: 300px;
+        width: 1em;
     }
     .email-image img{ 
         width: 50%;
