@@ -271,6 +271,7 @@ input:active{
     .grid{ 
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .email, .productive{ 
@@ -316,7 +317,7 @@ input:active{
     }
 
     .email .email-input input{ 
-        width: 60%;
+        width: 80%;
     }
 
     .email .email-input button{ 
