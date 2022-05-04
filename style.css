@@ -275,6 +275,10 @@ input:active{
         justify-content: stretch;
     }
 
+    .nav{ 
+        font-size: larger;
+    }
+
     .email, .productive{ 
         display: flex;
         flex-direction: column-reverse;
