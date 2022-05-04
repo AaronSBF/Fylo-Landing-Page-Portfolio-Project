@@ -285,6 +285,12 @@ input:active{
 }
     
     
+    .ceo{ 
+    position: relative;
+    left: 110px;
+}
+    
+    
     .header .nav{ 
     display: flex;
     font-size: 16px;
@@ -334,14 +340,14 @@ input:active{
         width: 300px;
     }
     .email-image img{ 
-        width: 80%;
+        width: 50%;
         height: 50px;
         position: relative;
         right: 70px;
         overflow: hidden;
     }
     .productivity-image img{ 
-        width: 100%;
+        width: 60%;
         height: 50px;
         position: relative;
         right: 80px;
