@@ -282,6 +282,10 @@ input:active{
         flex-direction: column-reverse;
         width: 100%;
     }
+    
+    .productive{  
+        background-color: rgb(188, 231, 217);
+    }
 
     .footer, .access{ 
         display: flex;
