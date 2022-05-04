@@ -261,3 +261,7 @@ input:active{
 .fa-instagram:hover{ 
     color: indigo;
 }
+
+.fa{ 
+    color: white;
+}
