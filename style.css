@@ -273,6 +273,8 @@ input:active{
         flex-direction: column;
         width: 100%;
         justify-content: stretch;
+        align-content: stretch;
+        align-items: stretch;
     }
 
     .email, .productive{ 
