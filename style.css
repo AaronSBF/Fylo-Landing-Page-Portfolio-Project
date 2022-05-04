@@ -317,6 +317,7 @@ input:active{
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
+        flec-basis:100%;
     }
     
     .productive{  
@@ -328,6 +329,7 @@ input:active{
         flex-direction: column;
         justify-content: center;
         width: 100%;
+        flex-basis: 100%;
 
     }
     .access{ 
