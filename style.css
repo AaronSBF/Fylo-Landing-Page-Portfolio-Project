@@ -335,16 +335,18 @@ input:active{
     }
     .email-image img{ 
         width: 80%;
-        height: auto;
+        height: 50px;
         position: relative;
         right: 70px;
+        overflow: hidden;
     }
     .productivity-image img{ 
         width: 100%;
-        height: auto;
+        height: 50px;
         position: relative;
         right: 80px;
         padding: 10%;
+        overflow: hidden;
     }
 
     .productive .productive-texts{ 
