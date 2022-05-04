@@ -267,7 +267,7 @@ input:active{
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1441px) {
     .grid{ 
         display: flex;
         flex-direction: column;
