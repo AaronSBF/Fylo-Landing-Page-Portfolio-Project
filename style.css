@@ -265,3 +265,79 @@ input:active{
 .fa{ 
     color: white;
 }
+
+
+@media only screen and (max-width: 500px) {
+    .grid{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email, .productive{ 
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .footer, .access{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .access{ 
+        gap: 0px;
+    }
+    .email-image{ 
+        width: 100%;
+    }
+    .productivity-image{ 
+        width: 300px;
+    }
+    .email-image img{ 
+        width: 100%;
+        height: auto;
+        position: relative;
+        right: 70px;
+    }
+    .productivity-image img{ 
+        width: 100%;
+        height: auto;
+        position: relative;
+        right: 80px;
+        padding: 10%;
+    }
+
+    .productive .productive-texts{ 
+        position: relative;
+        bottom: 80px;
+        font-size: 14px;
+    }
+
+    .email .email-input input{ 
+        width: 60%;
+    }
+
+    .email .email-input button{ 
+        width: 60%;
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+
+    .access .fill-form input{ 
+        width: 70%;
+        position: relative;
+        bottom: 200px;
+        display: inline;
+    }
+
+    .access .fill-form button{ 
+        position: absolute;
+        bottom: 300px;
+        left: 80px;
+        display: inline;
+        top: 0%;
+    }
+}
