@@ -267,11 +267,10 @@ input:active{
 }
 
 
-@media only screen and (max-width: 1441px) {
+@media only screen and (max-width: 500px) {
     .grid{ 
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
 
     .email, .productive{ 
@@ -317,7 +316,7 @@ input:active{
     }
 
     .email .email-input input{ 
-        width: 80%;
+        width: 60%;
     }
 
     .email .email-input button{ 
