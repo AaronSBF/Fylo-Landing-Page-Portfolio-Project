@@ -6,7 +6,7 @@
     "access access"
     "footer footer";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 500px 900px 400px 300px;
+    grid-template-rows: 50px 500px 900px 400px 300px;
 }
 
 .header{ 
@@ -14,13 +14,30 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+
 }
 
 .email{ 
     grid-area: email;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    width: 1280px;
+    margin-bottom: 164px;
+    
+    
+}
+.email .email-input{ 
+    padding: 80px;
+
+}
+.email .email-input h3{ 
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    
+}
+.email .email-input p{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
 }
 
 .productive{ 
@@ -28,11 +45,28 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+    position: relative;
+    top: 164px;
+    background-color: rgb(188, 231, 217);
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    
+    
+}
+.avatar{ 
+    border-radius: 50%;
+    border-color: wheat;
+    border-width: 5px;
+    margin: 10px;
+}
+.ceo{ 
+    position: relative;
+    left: 145px;
 }
 
-.footer .logo-contacts .footer-logo{ 
+.footer .logo-contacts .footer-logo { 
     opacity: 50%;
-    fill: aliceblue;
+    filter: brightness(0) invert(1);
 }
 
 .access{ 
@@ -40,6 +74,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+    z-index: 5;
+    background-color: rgb(73, 131, 219);
+    color: beige;
+    border: none;
+    border: 10px;
+    
+}
+.access .access-text{ 
+    padding: 80px;
+}
+.access .fill-form{ 
+    padding: 80px;
+    margin: 10px;
+    position: relative;
+    top: 100px;
 }
 
 .footer{ 
@@ -50,14 +99,165 @@
     width: 100%;
     background-color: #07043B;
     color: aliceblue;
+    align-content: center;
+    justify-content: stretch;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.header .logo{ 
+    width: 166px;
+    height: 49px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.header .nav{ 
+    display: flex;
+    font-size: 16px;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 50px;
+    margin: 20px;
+    line-height: 19px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
 }
 
+.email .email-input button{ 
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    width: 200px;
+    height: 40px;
+    display: inline;
+    position: relative;
+    left: 350px;
+    bottom: 20px;
+    border: none;
+    background-color: rgb(54, 111, 185);
+    color: antiquewhite;
+    border-radius: 5px;
+}
+svg{ 
+    fill: white;
+}
+
+.email .email-input input{ 
+    height: 40px;
+    width: 320px;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+}
+
+.logo-contacts, .about-us, .contact-us{ 
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 40px;
+    gap: 20px;
+
+}
+.social{ 
+    display: flex;
+    list-style-type: none;
+    margin: 40px;
+    gap: 20px;
+}
 .productive .productivity-image img{ 
     width: 542px;
     height: 409px;
+    padding: 80px;
+    margin: 10px;
+    position: relative;
+    top: 50px;
 }
+
 
 .email .email-image img{ 
     width: 640px;
     height: 474px;
+}
+
+.email .email-image{ 
+    padding: 80px;
+}
+
+.productive .productive-texts{ 
+    padding: 80px;
+    margin: 10px;
+    color: rgb(8, 16, 124);
+}
+
+.productive .productive-texts p{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.productive .productive-texts h3{ 
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.access-text h1{ 
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.access-text p{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+.access .fill-form input{ 
+    width: 480px;
+    height: 48px;
+    border: none;
+}
+
+.access .fill-form button{ 
+    width: 200px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    background-color: #062e9c;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.access .fill-form button:active{ 
+    background-color: rgb(192, 225, 247);
+}
+
+.access .fill-form button:hover{ 
+    background-color: aquamarine;
+}
+
+.email .email-input button:active{ 
+    background-color: rgb(192, 225, 247);
+}
+
+.email .email-inputbutton:hover{ 
+    background-color: aquamarine;
+}
+
+input:active{ 
+    border-color: red;
+}
+
+.fa-facebook:hover{ 
+ color: rgb(0, 225, 255);
+}
+
+.fa-twitter:hover{ 
+    color: rgb(0, 110, 255);
+}
+
+.fa-instagram:hover{ 
+    color: indigo;
 }
