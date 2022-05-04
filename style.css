@@ -272,11 +272,6 @@ input:active{
         display: flex;
         flex-direction: column;
         width: 100%;
-        justify-content: stretch;
-    }
-
-    .nav{ 
-        font-size: 40px;
     }
 
     .email, .productive{ 
