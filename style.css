@@ -183,6 +183,13 @@ svg{
     top: 50px;
 }
 
+.productive .productivity-image{ 
+    background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg");
+    height: 500px;
+    background-size: contain;
+    margin: 10px;
+}
+
 
 .email .email-image img{ 
     width: 640px;
