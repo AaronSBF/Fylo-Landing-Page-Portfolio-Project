@@ -312,6 +312,11 @@ input:active{
     .productivity-image{ 
         width: 300px;
     }
+    .email-image{ 
+        background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg");
+        background-size: contain;
+        height: 300px;
+    }
     .email-image img{ 
         width: 100%;
         height: auto;
@@ -348,6 +353,11 @@ input:active{
         position: relative;
         bottom: 200px;
         display: inline;
+    }
+    .productive .productivity-image{ 
+        background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg");
+        background-size: contain;
+        height: 300px;
     }
 
     .access .fill-form button{ 
