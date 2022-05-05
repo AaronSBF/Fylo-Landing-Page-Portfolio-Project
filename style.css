@@ -371,6 +371,18 @@ input:active{
         overflow: hidden;
     }
 
+    .email-image{ 
+        background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg");
+        background-size: contain;
+        height: 300px;
+    }
+
+    .productive .productivity-image{ 
+        background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg");
+        background-size: contain;
+        height: 300px;
+    }
+
     .productive .productive-texts{ 
         position: relative;
         bottom: 80px;
