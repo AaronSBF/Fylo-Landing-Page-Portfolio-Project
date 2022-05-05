@@ -61,6 +61,13 @@
     border-width: 5px;
     margin: 10px;
 }
+
+.avatar-div{ 
+    box-shadow: 2px 2px rgba(73, 70, 70, 0.5);
+    border: 1px solid rgba(73, 70, 70, 0.5);
+    padding: 5%;
+}
+
 .ceo{ 
     position: relative;
     left: 145px;
