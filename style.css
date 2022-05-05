@@ -327,7 +327,11 @@ input:active{
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
+<<<<<<< HEAD
         flex-basis:100%;
+=======
+        flec-basis:100%;
+>>>>>>> 6bc8e0b25b7457e09328050e926935f6a91c5c01
     }
     
     .productive{  
@@ -385,7 +389,11 @@ input:active{
     }
 
     .access .fill-form input{ 
+<<<<<<< HEAD
         width: 60%;
+=======
+        width 60%;
+>>>>>>> 6bc8e0b25b7457e09328050e926935f6a91c5c01
         position: relative;
         bottom: 200px;
         display: inline;
