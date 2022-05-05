@@ -184,8 +184,7 @@ svg{
 }
 
 .productive .productivity-image{ 
-    background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg");
-    background-size: contain;
+    padding: 5px;
 }
 
 
