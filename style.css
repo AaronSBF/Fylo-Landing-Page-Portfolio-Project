@@ -191,6 +191,8 @@ svg{
 
 .email .email-image{ 
     padding: 80px;
+    background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg");
+    background-size: contain;
 }
 
 .productive .productive-texts{ 
