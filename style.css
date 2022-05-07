@@ -188,6 +188,7 @@ svg{
     height: 500px;
     background-size: contain;
     margin: 10px;
+    background-repeat: no-repeat;
 }
 
 
@@ -305,7 +306,7 @@ input:active{
     
     .ceo{ 
     position: relative;
-    left: 110px;
+    left: 100px;
 }
     
     
