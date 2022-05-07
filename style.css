@@ -337,9 +337,7 @@ input:active{
     .access{ 
         gap: 0px;
     }
-    .email-image{ 
-        width: 100%;
-    }
+    
     .productivity-image{ 
         width: 300px;
     }
@@ -347,6 +345,7 @@ input:active{
         background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg");
         background-size: contain;
         height: 300px;
+        width: 400px;
         background-repeat: no-repeat;
     }
     .email-image img{ 
@@ -369,7 +368,7 @@ input:active{
         font-size: 14px;
     }
 
-    span{ 
+    .ceo{ 
         position: relative;
         right: 100px;
     }
@@ -396,6 +395,7 @@ input:active{
         background-size: contain;
         height: 300px;
         background-repeat: no-repeat;
+        width: 100%;
     }
 
     .access .fill-form button{ 
