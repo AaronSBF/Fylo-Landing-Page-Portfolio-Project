@@ -326,7 +326,7 @@ input:active{
     
     .header{ 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     width: 100%;
     margin: 0%;
 
@@ -413,8 +413,11 @@ input:active{
     }
 
     .access .fill-form button{ 
-        position: relative;
-        top: 0px;
+        position: absolute;
+        bottom: 300px;
+        left: 80px;
+        display: inline;
+        top: 0%;
     }
 
     .access .fill-form input{ 
