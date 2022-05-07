@@ -319,6 +319,7 @@ input:active{
     gap: 10px;
     margin: 5px;
     width: 100%;
+    
 }
 
     .email, .productive{ 
@@ -370,7 +371,7 @@ input:active{
 
     .ceo{ 
         position: relative;
-        left: 100px;
+        left: 10px;
     }
 
     .email .email-input input{ 
