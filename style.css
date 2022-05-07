@@ -370,7 +370,7 @@ input:active{
 
     .ceo{ 
         position: relative;
-        right: 100px;
+        left: 100px;
     }
 
     .email .email-input input{ 
