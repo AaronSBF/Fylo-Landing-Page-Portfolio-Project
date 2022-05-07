@@ -383,6 +383,7 @@ input:active{
         background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg");
         background-size: contain;
         height: 300px;
+        width: 400px;
     }
 
     .productive .productivity-image{ 
@@ -406,6 +407,11 @@ input:active{
         position: relative;
         top: 50px;
         left: 0px;
+    }
+
+    .access .fill-form button{ 
+        position: relative;
+        bottom: 200px;
     }
 
     .access .fill-form input{ 
