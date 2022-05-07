@@ -345,7 +345,7 @@ input:active{
         background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg");
         background-size: contain;
         height: 300px;
-        width: 400px;
+        width: 100%;
         background-repeat: no-repeat;
     }
     .email-image img{ 
