@@ -298,10 +298,11 @@ input:active{
     
     
     .header .logo{ 
-    width: 166px;
-    height: 49px;
-    margin-top: 20px;
-}
+        width: 166px;
+        height: 49px;
+        margin: 0%;
+    }
+
     
     
     .ceo{ 
@@ -319,7 +320,7 @@ input:active{
     line-height: 19px;
     text-transform: capitalize;
     font-family: 'Raleway', sans-serif;
-
+    padding: 0%;
     line-height: 19px;
 }
     
@@ -351,7 +352,7 @@ input:active{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        flex-basis: 100%;
+        
 
     }
     .access{ 
@@ -384,7 +385,7 @@ input:active{
         background-size: contain;
         height: 300px;
         background-repeat: no-repeat;
-        width: 100%;
+        
         
     }
 
