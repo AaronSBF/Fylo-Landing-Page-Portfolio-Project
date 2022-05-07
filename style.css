@@ -188,6 +188,7 @@ svg{
         background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg");
         height: 500px;
         background-size: contain;
+        background-repeat: no-repeat;
         margin: 10px;
     }
 
@@ -202,6 +203,7 @@ svg{
     padding: 80px;
     background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .productive .productive-texts{ 
@@ -295,6 +297,30 @@ input:active{
         justify-content: center;
     }
 
+    .header{ 
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    
+    }
+
+    .header .logo{ 
+        width: 166px;
+        height: 49px;
+        margin: 5px;
+    }
+
+
+.header .nav{ 
+    display: flex;
+    font-size: 16px;
+    list-style-type: none;
+    gap: 10px;
+    margin: 5px;
+    width: 100%;
+}
+
     .email, .productive{ 
         display: flex;
         flex-direction: column-reverse;
@@ -321,6 +347,7 @@ input:active{
         background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg");
         background-size: contain;
         height: 300px;
+        background-repeat: no-repeat;
     }
     .email-image img{ 
         width: 100%;
@@ -340,6 +367,11 @@ input:active{
         position: relative;
         bottom: 80px;
         font-size: 14px;
+    }
+
+    span{ 
+        position: relative;
+        right: 100px;
     }
 
     .email .email-input input{ 
@@ -363,6 +395,7 @@ input:active{
         background-image: url("fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg");
         background-size: contain;
         height: 300px;
+        background-repeat: no-repeat;
     }
 
     .access .fill-form button{ 
