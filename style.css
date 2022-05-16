@@ -49,7 +49,7 @@
     width: 100%;
     position: relative;
     top: 164px;
-    background-color: rgb(188, 231, 217);
+    background-color: #F8F8FE;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
     
@@ -64,8 +64,9 @@
 
 .avatar-div{ 
     box-shadow: 2px 2px rgba(73, 70, 70, 0.5);
-    border: 1px solid rgba(73, 70, 70, 0.5);
+    border: none;
     padding: 5%;
+    background-color: #fff;
 }
 
 .ceo{ 
@@ -84,8 +85,8 @@
     grid-template-columns: 1fr 1fr;
     width: 100%;
     z-index: 5;
-    background-color: rgb(73, 131, 219);
-    color: beige;
+    background-color: #575988;
+    color: #FFFFFF;
     border: none;
     border: 10px;
     
@@ -131,6 +132,10 @@
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 19px;
+}
+
+.nav a{ 
+    text-decoration: none;
 }
 
 .email .email-input button{ 
@@ -219,6 +224,10 @@ svg{
     font-weight: bold;
 }
 
+.productive-texts a{ 
+    color: #3DA08F;
+}
+
 .access-text h1{ 
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -242,7 +251,7 @@ svg{
     border-radius: 5px;
     position: relative;
     top: 10px;
-    background-color: #062e9c;
+    background-color: #2F65F8;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -323,6 +332,7 @@ input:active{
     padding: 0%;
     line-height: 19px;
 }
+
     
     .header{ 
     display: grid;
